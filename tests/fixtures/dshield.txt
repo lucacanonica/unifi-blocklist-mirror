@@ -1,0 +1,7 @@
+#
+#   DShield.org Recommended Block List
+#   (c) 2026 DShield.org
+#   some rights reserved.  Details http://creativecommons.org/licenses/by-nc-sa/2.5/
+#
+Start	End	Netmask	Attacks	Name	Country	email
+45.142.193.0	45.142.193.255	24	2843	EXAMPLE	NL	abuse@example.net

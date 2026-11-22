@@ -1,0 +1,133 @@
+{
+  "_comment": "enabled: fetch and publish this source. combined: also merge it into lists/combined_*. The licence field names the upstream licence or policy and is shown in lists/NOTICE.md.",
+  "sources": [
+    {
+      "id": "spamhaus_drop",
+      "name": "Spamhaus DROP (Don't Route Or Peer)",
+      "owner": "The Spamhaus Project",
+      "homepage": "https://www.spamhaus.org/blocklists/do-not-route-or-peer/",
+      "terms": "https://www.spamhaus.org/blocklists/drop-fair-use-policy/",
+      "license": "Spamhaus DROP Fair Use Policy",
+      "urls": [
+        "https://www.spamhaus.org/drop/drop.txt",
+        "https://www.spamhaus.org/drop/dropv6.txt"
+      ],
+      "parser": "generic",
+      "enabled": true,
+      "combined": true
+    },
+    {
+      "id": "firehol_level1",
+      "name": "FireHOL Level 1",
+      "owner": "FireHOL (Costa Tsaousis) and the maintainers of the included feeds",
+      "homepage": "https://iplists.firehol.org/?ipset=firehol_level1",
+      "terms": "https://github.com/firehol/blocklist-ipsets",
+      "license": "Aggregate of Spamhaus DROP, DShield and Feodo Tracker; see those sources",
+      "urls": [
+        "https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level1.netset"
+      ],
+      "parser": "generic",
+      "enabled": true,
+      "combined": true
+    },
+    {
+      "id": "blocklist_de",
+      "name": "blocklist.de (all attackers, last 48 hours)",
+      "owner": "blocklist.de",
+      "homepage": "https://www.blocklist.de/en/export.html",
+      "terms": "https://www.blocklist.de/en/export.html",
+      "license": "See upstream",
+      "urls": [
+        "https://lists.blocklist.de/lists/all.txt"
+      ],
+      "parser": "generic",
+      "enabled": false,
+      "combined": false
+    },
+    {
+      "id": "dshield",
+      "name": "DShield Recommended Block List",
+      "owner": "DShield.org / SANS Technology Institute, Internet Storm Center (https://isc.sans.edu)",
+      "homepage": "https://isc.sans.edu/feeds_doc.html",
+      "terms": "https://creativecommons.org/licenses/by-nc-sa/2.5/",
+      "license": "CC BY-NC-SA 2.5",
+      "urls": [
+        "https://www.dshield.org/block.txt"
+      ],
+      "parser": "dshield",
+      "enabled": true,
+      "combined": true
+    },
+    {
+      "id": "feodo_tracker",
+      "name": "abuse.ch Feodo Tracker botnet C2 IP blocklist",
+      "owner": "abuse.ch",
+      "homepage": "https://feodotracker.abuse.ch/blocklist/",
+      "terms": "https://abuse.ch/terms-of-use/",
+      "license": "CC0 (abuse.ch Terms of Use)",
+      "urls": [
+        "https://feodotracker.abuse.ch/downloads/ipblocklist.txt"
+      ],
+      "parser": "generic",
+      "allow_empty": true,
+      "enabled": true,
+      "combined": true
+    },
+    {
+      "id": "emerging_threats",
+      "name": "Emerging Threats Block IPs (fwip rules)",
+      "owner": "Emerging Threats (Proofpoint)",
+      "homepage": "https://rules.emergingthreats.net/fwrules/",
+      "terms": "https://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt",
+      "license": "BSD-style licence, reproduced in the file header below",
+      "urls": [
+        "https://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt"
+      ],
+      "parser": "generic",
+      "enabled": true,
+      "combined": true
+    },
+    {
+      "id": "ipsum_level2",
+      "name": "IPsum (IPs seen on 2 or more blacklists)",
+      "owner": "Miroslav Stampar (stamparm/ipsum)",
+      "homepage": "https://github.com/stamparm/ipsum",
+      "terms": "https://github.com/stamparm/ipsum/blob/master/LICENSE",
+      "license": "The Unlicense",
+      "urls": [
+        "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/2.txt"
+      ],
+      "parser": "generic",
+      "enabled": true,
+      "combined": true
+    },
+    {
+      "id": "cins_army",
+      "name": "CINS Army list (ci-badguys)",
+      "owner": "Nomic Networks / Sentinel IPS (cinsscore.com)",
+      "homepage": "https://cinsscore.com/",
+      "terms": "https://cinsscore.com/",
+      "license": "See upstream",
+      "urls": [
+        "https://cinsscore.com/list/ci-badguys.txt"
+      ],
+      "parser": "generic",
+      "enabled": false,
+      "combined": false
+    },
+    {
+      "id": "tor_exit",
+      "name": "Tor exit nodes",
+      "owner": "The Tor Project",
+      "homepage": "https://check.torproject.org/",
+      "terms": "https://check.torproject.org/torbulkexitlist",
+      "license": "See upstream",
+      "urls": [
+        "https://check.torproject.org/torbulkexitlist"
+      ],
+      "parser": "generic",
+      "enabled": true,
+      "combined": false
+    }
+  ]
+}

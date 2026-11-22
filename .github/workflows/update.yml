@@ -1,0 +1,43 @@
+name: Update blocklists
+
+on:
+  schedule:
+    - cron: "17 */6 * * *" # every 6 hours, off the full hour
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["sources.json", "scripts/**", ".github/workflows/update.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-blocklists
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+      - name: Build lists
+        run: python scripts/build.py
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lists
+          # status.json and NOTICE.md change on every run (time stamps);
+          # only commit when a list file actually changed.
+          if git diff --cached --quiet -- 'lists/*.txt'; then
+            echo "No list changes."
+          else
+            git commit -m "Update blocklists $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

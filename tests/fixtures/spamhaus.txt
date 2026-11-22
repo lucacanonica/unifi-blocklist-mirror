@@ -1,0 +1,9 @@
+; Spamhaus DROP List 2026/11/21 - (c) 2026 The Spamhaus Project SLU
+; https://www.spamhaus.org/drop/drop.txt
+; Last-Modified: Sat, 21 Nov 2026 04:10:11 GMT
+1.10.16.0/20 ; SBL256894
+9.9.9.9
+10.0.0.0/8 ; bogon, must be removed
+{"cidr":"2.56.192.0/22","sblid":"SBL459831","rir":"ripencc"}
+{"type":"metadata","timestamp":1700000000}
+2a06:a80::/29 ; SBL301771
