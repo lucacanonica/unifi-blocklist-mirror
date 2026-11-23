@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-22 23:37 UTC",
+ "generated": "2026-11-23 07:41 UTC",
  "combined": {
-  "v4": 32697,
+  "v4": 32025,
   "v6": 84
  },
  "sources": {
   "spamhaus_drop": {
-   "fetched": "2026-11-22 23:37 UTC",
+   "fetched": "2026-11-23 07:41 UTC",
    "stale": false,
    "error": null,
    "entries": {
@@ -17,25 +17,25 @@
     [
      "https://www.spamhaus.org/drop/drop.txt",
      [
-      "; Spamhaus DROP List 2026/11/21 - (c) 2026 The Spamhaus Project SLU",
+      "; Spamhaus DROP List 2026/11/23 - (c) 2026 The Spamhaus Project SLU",
       "; https://www.spamhaus.org/drop/drop.txt",
       "; Last-Modified: Sat, 21 Nov 2026 17:37:20 GMT",
-      "; Expires: Sat, 21 Nov 2026 18:56:44 GMT"
+      "; Expires: Mon, 23 Nov 2026 07:56:44 GMT"
      ]
     ],
     [
      "https://www.spamhaus.org/drop/dropv6.txt",
      [
-      "; Spamhaus IPv6 DROP List 2026/11/20 - (c) 2026 The Spamhaus Project SLU",
+      "; Spamhaus IPv6 DROP List 2026/11/23 - (c) 2026 The Spamhaus Project SLU",
       "; https://www.spamhaus.org/drop/dropv6.txt",
       "; Last-Modified: Fri, 20 Nov 2026 09:32:55 GMT",
-      "; Expires: Fri, 20 Nov 2026 10:56:44 GMT"
+      "; Expires: Mon, 23 Nov 2026 08:26:44 GMT"
      ]
     ]
    ]
   },
   "firehol_level1": {
-   "fetched": "2026-11-22 23:37 UTC",
+   "fetched": "2026-11-23 07:41 UTC",
    "stale": false,
    "error": null,
    "entries": {
@@ -84,7 +84,7 @@
    ]
   },
   "dshield": {
-   "fetched": "2026-11-22 23:37 UTC",
+   "fetched": "2026-11-23 07:41 UTC",
    "stale": false,
    "error": null,
    "entries": {
@@ -104,7 +104,7 @@
       "#     PGP Sign.: https://feeds.dshield.org/block.txt.asc",
       "#",
       "#   comments: systems@isc.sans.edu",
-      "#    updated: 2026-11-22T23:15:33.445723",
+      "#    updated: 2026-11-23T07:15:47.636320",
       "#",
       "#    This list summarizes the top 20 attacking class C (/24) subnets",
       "#   over the last three days. The number of 'attacks' indicates the",
@@ -128,7 +128,7 @@
    ]
   },
   "feodo_tracker": {
-   "fetched": "2026-11-22 23:37 UTC",
+   "fetched": "2026-11-23 07:41 UTC",
    "stale": false,
    "error": null,
    "entries": {
@@ -153,7 +153,7 @@
    ]
   },
   "emerging_threats": {
-   "fetched": "2026-11-22 23:37 UTC",
+   "fetched": "2026-11-23 07:41 UTC",
    "stale": false,
    "error": null,
    "entries": {
@@ -208,11 +208,11 @@
    ]
   },
   "ipsum_level2": {
-   "fetched": "2026-11-22 23:37 UTC",
+   "fetched": "2026-11-23 07:41 UTC",
    "stale": false,
    "error": null,
    "entries": {
-    "v4": 29648,
+    "v4": 29088,
     "v6": 0
    },
    "headers": [
@@ -223,11 +223,11 @@
    ]
   },
   "tor_exit": {
-   "fetched": "2026-11-22 23:37 UTC",
+   "fetched": "2026-11-23 07:41 UTC",
    "stale": false,
    "error": null,
    "entries": {
-    "v4": 689,
+    "v4": 685,
     "v6": 0
    },
    "headers": [
