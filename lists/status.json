@@ -1,26 +1,26 @@
 {
- "generated": "2026-11-24 09:55 UTC",
+ "generated": "2026-11-24 22:28 UTC",
  "combined": {
-  "v4": 30504,
+  "v4": 30425,
   "v6": 84
  },
  "sources": {
   "spamhaus_drop": {
-   "fetched": "2026-11-24 09:55 UTC",
+   "fetched": "2026-11-24 22:28 UTC",
    "stale": false,
    "error": null,
    "entries": {
-    "v4": 1617,
+    "v4": 1604,
     "v6": 84
    },
    "headers": [
     [
      "https://www.spamhaus.org/drop/drop.txt",
      [
-      "; Spamhaus DROP List 2026/11/23 - (c) 2026 The Spamhaus Project SLU",
+      "; Spamhaus DROP List 2026/11/24 - (c) 2026 The Spamhaus Project SLU",
       "; https://www.spamhaus.org/drop/drop.txt",
-      "; Last-Modified: Mon, 23 Nov 2026 10:21:36 GMT",
-      "; Expires: Mon, 23 Nov 2026 12:26:44 GMT"
+      "; Last-Modified: Tue, 24 Nov 2026 17:15:29 GMT",
+      "; Expires: Tue, 24 Nov 2026 18:26:44 GMT"
      ]
     ],
     [
@@ -35,11 +35,11 @@
    ]
   },
   "firehol_level1": {
-   "fetched": "2026-11-24 09:55 UTC",
+   "fetched": "2026-11-24 22:28 UTC",
    "stale": false,
    "error": null,
    "entries": {
-    "v4": 4622,
+    "v4": 4620,
     "v6": 0
    },
    "headers": [
@@ -60,15 +60,15 @@
       "# Maintainer      : FireHOL",
       "# Maintainer URL  : http://iplists.firehol.org/",
       "# List source URL :",
-      "# Source File Date: Mon Nov 23 04:44:43 UTC 2026",
+      "# Source File Date: Tue Nov 24 05:44:43 UTC 2026",
       "#",
       "# Category        : attacks",
-      "# Version         : 33196",
+      "# Version         : 33200",
       "#",
-      "# This File Date  : Mon Nov 23 05:09:03 UTC 2026",
+      "# This File Date  : Tue Nov 24 06:42:16 UTC 2026",
       "# Update Frequency: 1 min",
       "# Aggregation     : none",
-      "# Entries         : 3929 subnets, 611201345 unique IPs",
+      "# Entries         : 3928 subnets, 611200065 unique IPs",
       "#",
       "# Full list analysis, including geolocation map, history,",
       "# retention policy, overlaps with other lists, etc.",
@@ -84,11 +84,11 @@
    ]
   },
   "dshield": {
-   "fetched": "2026-11-24 09:55 UTC",
+   "fetched": "2026-11-24 22:28 UTC",
    "stale": false,
    "error": null,
    "entries": {
-    "v4": 20,
+    "v4": 19,
     "v6": 0
    },
    "headers": [
@@ -104,7 +104,7 @@
       "#     PGP Sign.: https://feeds.dshield.org/block.txt.asc",
       "#",
       "#   comments: systems@isc.sans.edu",
-      "#    updated: 2026-11-24T09:45:48.730805",
+      "#    updated: 2026-11-24T22:00:31.761473",
       "#",
       "#    This list summarizes the top 20 attacking class C (/24) subnets",
       "#   over the last three days. The number of 'attacks' indicates the",
@@ -128,7 +128,7 @@
    ]
   },
   "feodo_tracker": {
-   "fetched": "2026-11-24 09:55 UTC",
+   "fetched": "2026-11-24 22:28 UTC",
    "stale": false,
    "error": null,
    "entries": {
@@ -153,7 +153,7 @@
    ]
   },
   "emerging_threats": {
-   "fetched": "2026-11-24 09:55 UTC",
+   "fetched": "2026-11-24 22:28 UTC",
    "stale": false,
    "error": null,
    "entries": {
@@ -200,7 +200,7 @@
       "#  USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
       "#",
       "#",
-      "# Rev 8027",
+      "# Rev 8028",
       "# Abuse.ch C&C List",
       "# Feodo"
      ]
@@ -208,7 +208,7 @@
    ]
   },
   "ipsum_level2": {
-   "fetched": "2026-11-24 09:55 UTC",
+   "fetched": "2026-11-24 22:28 UTC",
    "stale": false,
    "error": null,
    "entries": {
@@ -223,11 +223,11 @@
    ]
   },
   "tor_exit": {
-   "fetched": "2026-11-24 09:55 UTC",
+   "fetched": "2026-11-24 22:28 UTC",
    "stale": false,
    "error": null,
    "entries": {
-    "v4": 689,
+    "v4": 687,
     "v6": 0
    },
    "headers": [
