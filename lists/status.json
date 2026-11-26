@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-25 21:43 UTC",
+ "generated": "2026-11-26 08:20 UTC",
  "combined": {
-  "v4": 31970,
+  "v4": 31407,
   "v6": 84
  },
  "sources": {
   "spamhaus_drop": {
-   "fetched": "2026-11-25 21:43 UTC",
+   "fetched": "2026-11-26 08:20 UTC",
    "stale": false,
    "error": null,
    "entries": {
@@ -20,7 +20,7 @@
       "; Spamhaus DROP List 2026/11/25 - (c) 2026 The Spamhaus Project SLU",
       "; https://www.spamhaus.org/drop/drop.txt",
       "; Last-Modified: Wed, 25 Nov 2026 13:24:16 GMT",
-      "; Expires: Wed, 25 Nov 2026 21:56:44 GMT"
+      "; Expires: Wed, 25 Nov 2026 14:26:44 GMT"
      ]
     ],
     [
@@ -29,13 +29,13 @@
       "; Spamhaus IPv6 DROP List 2026/11/25 - (c) 2026 The Spamhaus Project SLU",
       "; https://www.spamhaus.org/drop/dropv6.txt",
       "; Last-Modified: Fri, 20 Nov 2026 09:32:55 GMT",
-      "; Expires: Wed, 25 Nov 2026 21:56:44 GMT"
+      "; Expires: Wed, 25 Nov 2026 10:56:44 GMT"
      ]
     ]
    ]
   },
   "firehol_level1": {
-   "fetched": "2026-11-25 21:43 UTC",
+   "fetched": "2026-11-26 08:20 UTC",
    "stale": false,
    "error": null,
    "entries": {
@@ -84,7 +84,7 @@
    ]
   },
   "dshield": {
-   "fetched": "2026-11-25 21:43 UTC",
+   "fetched": "2026-11-26 08:20 UTC",
    "stale": false,
    "error": null,
    "entries": {
@@ -104,7 +104,7 @@
       "#     PGP Sign.: https://feeds.dshield.org/block.txt.asc",
       "#",
       "#   comments: systems@isc.sans.edu",
-      "#    updated: 2026-11-25T21:15:26.855650",
+      "#    updated: 2026-11-26T07:45:47.297171",
       "#",
       "#    This list summarizes the top 20 attacking class C (/24) subnets",
       "#   over the last three days. The number of 'attacks' indicates the",
@@ -128,7 +128,7 @@
    ]
   },
   "feodo_tracker": {
-   "fetched": "2026-11-25 21:43 UTC",
+   "fetched": "2026-11-26 08:20 UTC",
    "stale": false,
    "error": null,
    "entries": {
@@ -153,7 +153,7 @@
    ]
   },
   "emerging_threats": {
-   "fetched": "2026-11-25 21:43 UTC",
+   "fetched": "2026-11-26 08:20 UTC",
    "stale": false,
    "error": null,
    "entries": {
@@ -208,11 +208,11 @@
    ]
   },
   "ipsum_level2": {
-   "fetched": "2026-11-25 21:43 UTC",
+   "fetched": "2026-11-26 08:20 UTC",
    "stale": false,
    "error": null,
    "entries": {
-    "v4": 29046,
+    "v4": 28285,
     "v6": 0
    },
    "headers": [
@@ -223,11 +223,11 @@
    ]
   },
   "tor_exit": {
-   "fetched": "2026-11-25 21:43 UTC",
+   "fetched": "2026-11-26 08:20 UTC",
    "stale": false,
    "error": null,
    "entries": {
-    "v4": 691,
+    "v4": 692,
     "v6": 0
    },
    "headers": [
