@@ -10,7 +10,7 @@ The published `.txt` files carry no comment lines because UniFi cannot
 import files that contain them. The copyright statements and time
 stamps from the upstream files are therefore kept here instead.
 
-Generated: 2026-11-26 08:20 UTC
+Generated: 2026-11-26 21:34 UTC
 
 ## Combined list
 
@@ -19,7 +19,7 @@ Generated: 2026-11-26 08:20 UTC
 Each included list remains under the terms of its upstream project,
 linked below.
 
-Entries: 31407 IPv4, 84 IPv6
+Entries: 31265 IPv4, 84 IPv6
 
 ## Spamhaus DROP (Don't Route Or Peer)
 
@@ -29,25 +29,25 @@ Entries: 31407 IPv4, 84 IPv6
 - Licence: Spamhaus DROP Fair Use Policy
 - Files: `spamhaus_drop_v4.txt`, `spamhaus_drop_v4_cidr.txt`, `spamhaus_drop_v6.txt`, `spamhaus_drop_v6_cidr.txt`
 - In combined list: yes
-- Last fetched from upstream: 2026-11-26 08:20 UTC
+- Last fetched from upstream: 2026-11-26 21:34 UTC
 - Entries after clean-up: 1604 IPv4, 84 IPv6
 
 Unmodified header of <https://www.spamhaus.org/drop/drop.txt>:
 
 ```
-; Spamhaus DROP List 2026/11/25 - (c) 2026 The Spamhaus Project SLU
+; Spamhaus DROP List 2026/11/26 - (c) 2026 The Spamhaus Project SLU
 ; https://www.spamhaus.org/drop/drop.txt
 ; Last-Modified: Wed, 25 Nov 2026 13:24:16 GMT
-; Expires: Wed, 25 Nov 2026 14:26:44 GMT
+; Expires: Thu, 26 Nov 2026 10:26:44 GMT
 ```
 
 Unmodified header of <https://www.spamhaus.org/drop/dropv6.txt>:
 
 ```
-; Spamhaus IPv6 DROP List 2026/11/25 - (c) 2026 The Spamhaus Project SLU
+; Spamhaus IPv6 DROP List 2026/11/26 - (c) 2026 The Spamhaus Project SLU
 ; https://www.spamhaus.org/drop/dropv6.txt
 ; Last-Modified: Fri, 20 Nov 2026 09:32:55 GMT
-; Expires: Wed, 25 Nov 2026 10:56:44 GMT
+; Expires: Thu, 26 Nov 2026 10:26:44 GMT
 ```
 
 ## FireHOL Level 1
@@ -58,8 +58,8 @@ Unmodified header of <https://www.spamhaus.org/drop/dropv6.txt>:
 - Licence: Aggregate of Spamhaus DROP, DShield and Feodo Tracker; see those sources
 - Files: `firehol_level1_v4.txt`, `firehol_level1_v4_cidr.txt`
 - In combined list: yes
-- Last fetched from upstream: 2026-11-26 08:20 UTC
-- Entries after clean-up: 4603 IPv4, 0 IPv6
+- Last fetched from upstream: 2026-11-26 21:34 UTC
+- Entries after clean-up: 4608 IPv4, 0 IPv6
 
 Unmodified header of <https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level1.netset>:
 
@@ -78,15 +78,15 @@ Unmodified header of <https://raw.githubusercontent.com/firehol/blocklist-ipsets
 # Maintainer      : FireHOL
 # Maintainer URL  : http://iplists.firehol.org/
 # List source URL :
-# Source File Date: Wed Nov 25 03:59:42 UTC 2026
+# Source File Date: Thu Nov 26 06:44:43 UTC 2026
 #
 # Category        : attacks
-# Version         : 33206
+# Version         : 33210
 #
-# This File Date  : Wed Nov 25 04:25:16 UTC 2026
+# This File Date  : Thu Nov 26 07:02:18 UTC 2026
 # Update Frequency: 1 min
 # Aggregation     : none
-# Entries         : 3914 subnets, 611191617 unique IPs
+# Entries         : 3918 subnets, 611191361 unique IPs
 #
 # Full list analysis, including geolocation map, history,
 # retention policy, overlaps with other lists, etc.
@@ -107,8 +107,8 @@ Unmodified header of <https://raw.githubusercontent.com/firehol/blocklist-ipsets
 - Licence: CC BY-NC-SA 2.5
 - Files: `dshield_v4.txt`, `dshield_v4_cidr.txt`
 - In combined list: yes
-- Last fetched from upstream: 2026-11-26 08:20 UTC
-- Entries after clean-up: 20 IPv4, 0 IPv6
+- Last fetched from upstream: 2026-11-26 21:34 UTC
+- Entries after clean-up: 19 IPv4, 0 IPv6
 
 Unmodified header of <https://www.dshield.org/block.txt>:
 
@@ -122,7 +122,7 @@ Unmodified header of <https://www.dshield.org/block.txt>:
 #     PGP Sign.: https://feeds.dshield.org/block.txt.asc
 #
 #   comments: systems@isc.sans.edu
-#    updated: 2026-11-26T07:45:47.297171
+#    updated: 2026-11-26T21:00:28.440024
 #
 #    This list summarizes the top 20 attacking class C (/24) subnets
 #   over the last three days. The number of 'attacks' indicates the
@@ -151,7 +151,7 @@ Unmodified header of <https://www.dshield.org/block.txt>:
 - Licence: CC0 (abuse.ch Terms of Use)
 - Files: `feodo_tracker_v4.txt`, `feodo_tracker_v4_cidr.txt`
 - In combined list: yes
-- Last fetched from upstream: 2026-11-26 08:20 UTC
+- Last fetched from upstream: 2026-11-26 21:34 UTC
 - Entries after clean-up: 5 IPv4, 0 IPv6
 
 Unmodified header of <https://feodotracker.abuse.ch/downloads/ipblocklist.txt>:
@@ -176,7 +176,7 @@ Unmodified header of <https://feodotracker.abuse.ch/downloads/ipblocklist.txt>:
 - Licence: BSD-style licence, reproduced in the file header below
 - Files: `emerging_threats_v4.txt`, `emerging_threats_v4_cidr.txt`
 - In combined list: yes
-- Last fetched from upstream: 2026-11-26 08:20 UTC
+- Last fetched from upstream: 2026-11-26 21:34 UTC
 - Entries after clean-up: 1626 IPv4, 0 IPv6
 
 Unmodified header of <https://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt>:
@@ -231,7 +231,7 @@ Unmodified header of <https://rules.emergingthreats.net/fwrules/emerging-Block-I
 - Licence: The Unlicense
 - Files: `ipsum_level2_v4.txt`, `ipsum_level2_v4_cidr.txt`
 - In combined list: yes
-- Last fetched from upstream: 2026-11-26 08:20 UTC
+- Last fetched from upstream: 2026-11-26 21:34 UTC
 - Entries after clean-up: 28285 IPv4, 0 IPv6
 
 ## Tor exit nodes
@@ -242,5 +242,5 @@ Unmodified header of <https://rules.emergingthreats.net/fwrules/emerging-Block-I
 - Licence: See upstream
 - Files: `tor_exit_v4.txt`, `tor_exit_v4_cidr.txt`
 - In combined list: no
-- Last fetched from upstream: 2026-11-26 08:20 UTC
-- Entries after clean-up: 692 IPv4, 0 IPv6
+- Last fetched from upstream: 2026-11-26 21:34 UTC
+- Entries after clean-up: 699 IPv4, 0 IPv6
