@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26 21:34 UTC",
+ "generated": "2026-11-27 08:36 UTC",
  "combined": {
-  "v4": 31265,
+  "v4": 31043,
   "v6": 84
  },
  "sources": {
   "spamhaus_drop": {
-   "fetched": "2026-11-26 21:34 UTC",
+   "fetched": "2026-11-27 08:36 UTC",
    "stale": false,
    "error": null,
    "entries": {
@@ -35,7 +35,7 @@
    ]
   },
   "firehol_level1": {
-   "fetched": "2026-11-26 21:34 UTC",
+   "fetched": "2026-11-27 08:36 UTC",
    "stale": false,
    "error": null,
    "entries": {
@@ -84,7 +84,7 @@
    ]
   },
   "dshield": {
-   "fetched": "2026-11-26 21:34 UTC",
+   "fetched": "2026-11-27 08:36 UTC",
    "stale": false,
    "error": null,
    "entries": {
@@ -104,7 +104,7 @@
       "#     PGP Sign.: https://feeds.dshield.org/block.txt.asc",
       "#",
       "#   comments: systems@isc.sans.edu",
-      "#    updated: 2026-11-26T21:00:28.440024",
+      "#    updated: 2026-11-27T07:45:48.867299",
       "#",
       "#    This list summarizes the top 20 attacking class C (/24) subnets",
       "#   over the last three days. The number of 'attacks' indicates the",
@@ -128,7 +128,7 @@
    ]
   },
   "feodo_tracker": {
-   "fetched": "2026-11-26 21:34 UTC",
+   "fetched": "2026-11-27 08:36 UTC",
    "stale": false,
    "error": null,
    "entries": {
@@ -153,11 +153,11 @@
    ]
   },
   "emerging_threats": {
-   "fetched": "2026-11-26 21:34 UTC",
+   "fetched": "2026-11-27 08:36 UTC",
    "stale": false,
    "error": null,
    "entries": {
-    "v4": 1626,
+    "v4": 1628,
     "v6": 0
    },
    "headers": [
@@ -200,7 +200,7 @@
       "#  USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
       "#",
       "#",
-      "# Rev 8029",
+      "# Rev 8030",
       "# Abuse.ch C&C List",
       "# Feodo"
      ]
@@ -208,11 +208,11 @@
    ]
   },
   "ipsum_level2": {
-   "fetched": "2026-11-26 21:34 UTC",
+   "fetched": "2026-11-27 08:36 UTC",
    "stale": false,
    "error": null,
    "entries": {
-    "v4": 28285,
+    "v4": 27954,
     "v6": 0
    },
    "headers": [
@@ -223,7 +223,7 @@
    ]
   },
   "tor_exit": {
-   "fetched": "2026-11-26 21:34 UTC",
+   "fetched": "2026-11-27 08:36 UTC",
    "stale": false,
    "error": null,
    "entries": {
